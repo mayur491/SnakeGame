@@ -10,14 +10,12 @@ public class GameFrame extends JFrame {
 	 * @date 31-10-2020
 	 */
 	public GameFrame() {
-
 		this.add(new GamePanel());
-		this.setTitle("Snake by Mayur");
+		this.setTitle("Snake - MacmaK");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
 		this.pack();
 		this.setVisible(true);
 		this.setLocationRelativeTo(null);
-
 	}
 }

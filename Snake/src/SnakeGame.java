@@ -1,4 +1,3 @@
-
 public class SnakeGame {
 
 	/**
@@ -7,8 +6,6 @@ public class SnakeGame {
 	 * @date 31-10-2020
 	 */
 	public static void main(String[] args) {
-
 		new GameFrame();
-
 	}
 }
