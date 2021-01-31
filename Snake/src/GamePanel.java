@@ -14,7 +14,6 @@ import javax.swing.Timer;
 
 /**
  * @author mayur.somani
- * @instagram mayur491
  * @date 31-10-2020
  */
 public class GamePanel extends JPanel implements ActionListener {

@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 
 public class GameFrame extends JFrame {
 
@@ -6,13 +7,12 @@ public class GameFrame extends JFrame {
 
 	/**
 	 * @author mayur.somani
-	 * @instagram mayur491
 	 * @date 31-10-2020
 	 */
 	public GameFrame() {
 		this.add(new GamePanel());
 		this.setTitle("Snake - MacmaK");
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		this.setResizable(false);
 		this.pack();
 		this.setVisible(true);
